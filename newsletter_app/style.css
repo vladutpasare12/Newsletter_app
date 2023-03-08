@@ -1,0 +1,73 @@
+body{
+    background: #e8e8e8;
+}
+.container{
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 200px;
+    background: #ffffff;
+    height:400px;
+    width:400px;
+    border-radius: 6px;
+    position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-box {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.log-in-button{
+    margin-top:5%;
+    background: #276cf5;
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    border:none;
+    transition: width 0.3s ease-out;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.log-in-button:hover{background-color: #3777f6
+}
+.log-in-button:active{
+    background-color: #276cf5;
+    box-shadow: 0 0 #e8e8e8;
+    width: 96%
+}
+.field-button{
+
+    height:45px;
+    width: 300px;
+    border-radius: 3px;
+    border-width: thin;
+    /*border-color: #ee3434;*/
+}
+::placeholder{
+    /*color:blue;*/
+}
+.field-input{
+    padding-left: 3%;
+    box-sizing: border-box;
+}
+#sign-up{
+    margin-top: 32%;
+    width: 100%;
+    text-align: left;
+    font-family:"Sama Gurmukhi", "serif";
+    font-size: 15px;
+}
+
+#sign-up-text{
+    background: white;
+    color: dodgerblue;
+}
